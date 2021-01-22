@@ -1,3 +1,5 @@
+// https://github.com/AR-Raju/problem-solving
+
 // function for kilometer to meter conversion
 function kilometerToMeter(kilo) {
   // handle negavite value of kilometer
@@ -9,7 +11,8 @@ function kilometerToMeter(kilo) {
   return meter;
 }
 
-var result = kilometerToMeter(10);
+//test for kilometerToMeter function
+var result = kilometerToMeter(1.5);
 console.log(result);
 
 //function to calculate the budget for buying ghori, phone and laptop
@@ -26,6 +29,7 @@ function budgetCalculator(ghori, phone, laptop) {
   return totalValue;
 }
 
+//test for budgetCalculator function
 var result = budgetCalculator(10, 8, 5);
 console.log(result);
 
@@ -49,7 +53,8 @@ function hotelCost(day) {
   return totalCost;
 }
 
-var result = hotelCost(100);
+//test for hotelCost function
+var result = hotelCost(19);
 console.log(result);
 
 // function to find the largest name in an array
@@ -70,11 +75,13 @@ function megaFriend(arr) {
   return bigName;
 }
 
+//test for megaFriend function
 var result = megaFriend([
-  "aluvaja",
-  "murivaja",
-  "shap",
-  "khocchor",
-  "bodmaish",
+  "Mamun",
+  "Abir",
+  "Rabbil",
+  "Tajrin",
+  "Tamanna",
+  "Mehejabin",
 ]);
 console.log(result);
